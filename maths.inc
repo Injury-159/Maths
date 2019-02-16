@@ -10,7 +10,7 @@
 
 
 #if !defined FLOAT_EPSILON
-	#define FLOAT_EPSILON 							0.0001
+	#define FLOAT_EPSILON 							0.00001
 #endif
 
 

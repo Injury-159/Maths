@@ -10,12 +10,12 @@
 
 
 #if !defined FLOAT_EPSILON
-	#define FLOAT_EPSILON 							0.00001
+	#define FLOAT_EPSILON 					0.00001
 #endif
 
 
-#define DotProductAsNormal(%0,%1,%2,%3,%4,%5) 		((%0*%3) + (%1*%4) + (%2*%5))
-#define FloatLength(%0,%1,%2)						floatsqroot((%0*%0) + (%1*%1) + (%2*%2)	
+#define DotProductAsNormal(%0,%1,%2,%3,%4,%5) 			((%0*%3) + (%1*%4) + (%2*%5))
+#define FloatLength(%0,%1,%2)					floatsqroot((%0*%0) + (%1*%1) + (%2*%2)	
 
 
 

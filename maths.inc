@@ -56,6 +56,11 @@ stock Float:DotProductAsArray(Float:a[3], Float:b[3])
 	return ((a[0] * b[0]) + (a[1] * b[1]) + (a[2] * b[2]));
 }
 
+stock Float:DotProductAsNormal(Float:a0, Float:a1, Float:a2, Float:b0, Float:b1, Float:b2)
+{
+	return ((a0 * b0) + (a1 * b1) + (a2 * b2));
+}
+
 
 stock NormalizeAsArray(Float:value[3], Float:result[3])
 {
